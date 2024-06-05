@@ -1,7 +1,6 @@
 # datacave
 hide data in no_access memory pages. when accessed internally, the data will temporarily become visible. \
 this is useful against external memory reads (cheats, stealers, etc). \
-the data will be hidden again after a very short time frame. \
 additionally, the data is not just hidden but also encrypted (simple xor) 
 
 # note
