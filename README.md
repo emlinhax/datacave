@@ -33,9 +33,10 @@ int main()
 }
 ```
 
-this will make sure all caves are encrypted and hidden again. this pretty much also controls how big of a performance hit you want. \
-make should be called periodically (example: at the end of a tick, every 100 milliseconds, etc...). \
-calling it less often will result in less exceptions that have to be handled (aka. less cpu usage).
+this will make sure all caves are encrypted and hidden again. \
+this pretty much defines how big of a performance hit you want. \
+make should be called periodically (example: every tick, every 100 ms, etc...). \
+calling it less often will result in less exceptions (aka. less cpu usage).
 ```cpp
 datacave::lock_all();
 ```
