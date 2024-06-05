@@ -4,10 +4,9 @@ this is useful against external memory reads (cheats, stealers, etc). \
 the data will be hidden again after a very short time frame. \
 additionally, the data is not just hidden but also encrypted (simple xor) 
 
-# drawbacks
-this is probably a heavy hit on performance. \
-make sure to only utilize this where it makes sense. \
-try to avoid high-frequency accesses.
+# note
+i made this as a poc. it is not intended to work perfectly. \
+if you find an issue, feel free to let me know!
 
 # example:
 ```cpp
