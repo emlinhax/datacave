@@ -19,6 +19,7 @@ int main()
 {
     datacave::initialize();
 
+    // allocate a player in a data-cave
     player_t* player = (player_t*)datacave::allocate_memory(sizeof(player_t));
     player->health = 100;
 
