@@ -24,10 +24,12 @@ int main()
 
     while (true)
     {
+        printf("player_health: %d  @  0x%p\n", player->health, &player->health);
+
+        // always re-lock all unlocked pages
         datacave::lock_all();
 
         Sleep(1000);
-        printf("player_health: %d  @  0x%p\n", player->health, &player->health);
     }
 }
 ```
