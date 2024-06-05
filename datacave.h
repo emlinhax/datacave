@@ -134,7 +134,6 @@ namespace datacave
         cave_t* cave = cave_from_address(access_address);
         if (cave != 0)
         {
-            lock_all();
             unlock(cave);
             return EXCEPTION_CONTINUE_EXECUTION;
         }
